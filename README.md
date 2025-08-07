@@ -1,5 +1,6 @@
+#Task 2
 
-#Task 2: Data Cleaning & Preprocessing
+Task 2: Data Cleaning & Preprocessing
 
 This task was focused on cleaning the Titanic dataset to prepare it for machine learning models.
 
