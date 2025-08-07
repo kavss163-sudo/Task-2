@@ -1,17 +1,25 @@
-# Task-2
 
-TASK 2 – Exploratory Data Analysis (EDA)
+#Task 2: Data Cleaning & Preprocessing
 
-Uses Seaborn and Matplotlib to visualize the cleaned dataset.
+This task was focused on cleaning the Titanic dataset to prepare it for machine learning models.
 
-Charts included:
+Steps I Followed: 
 
-Counted plots for Survived, Sex, and Pclass.
+1. Handled Missing Data:
 
-Histograms of Age and Fare with survival overlay.
+    Filled missing values in numerical columns (like age) using mean or median
+    Dropped or encoded rows/columns with too many missing values
 
-Boxplots to identify outliers in Age and Fare.
+2. Converted Categorical Data:
 
-Correlation heatmap to visualize relationships between numeric features.
+    Applied pd.get_dummies() to convert categorical columns (like sex, embarked) into numerical form
 
-Computes survival rates by Sex and Pclass.
+3. Feature Selection:
+
+    Removed irrelevant features (like Name, Ticket, Cabin
+    Selected key features to keep for model training
+
+4. Final Cleaned Dataset:
+
+    Ensured there were no missing values
+    Dataset was ready for model building in future tasks
